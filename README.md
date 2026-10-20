@@ -146,4 +146,3 @@ Use these commands to manage migrations:
 **The following reset deletes this exercise's database.** To erase its data and reapply migrations, run `docker compose down -v` followed by `make setup`.
 
 If you used the earlier starter with `db/init.sql`, that volume has no migration history. For disposable exercise data, use the reset command above before using this version. Do not force a migration version onto a database with an unverified schema or data you need to keep.
-# aksorn-senior-backend-assessment
