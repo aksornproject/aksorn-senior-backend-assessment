@@ -1,0 +1,33 @@
+version: "2"
+
+linters:
+  enable:
+    - asciicheck
+    - bidichk
+    - containedctx
+    - contextcheck
+    - durationcheck
+    - gocritic
+    - gosec
+    - misspell
+    - musttag
+    - nilerr
+    - perfsprint
+    - rowserrcheck
+    - usestdlibvars
+    - importas
+    - copyloopvar
+    - perfsprint
+    - mirror
+    - wsl_v5
+
+formatters:
+  enable:
+    - golines
+  settings:
+    golines:
+      max-len: 100
+      tab-len: 4
+      shorten-comments: false
+      reformat-tags: true
+      chain-split-dots: false

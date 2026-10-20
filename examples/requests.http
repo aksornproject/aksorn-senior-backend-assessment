@@ -1,0 +1,25 @@
+# Valid business requests return 501 until the two candidate TODOs are implemented.
+# Run requests in order; attempts persist in PostgreSQL across restarts.
+
+GET http://127.0.0.1:8080/healthz
+
+### Record an attempt (201 after implementation)
+POST http://127.0.0.1:8080/attempts
+Content-Type: application/json
+
+{"attempt_id":"attempt-001","learner_id":"learner-001","course_id":"course-001","lesson_id":"introduction","score":60}
+
+### Get progress (200 after implementation)
+GET http://127.0.0.1:8080/learners/learner-001/courses/course-001/progress
+
+### A later lower score must not erase a pass
+POST http://127.0.0.1:8080/attempts
+Content-Type: application/json
+
+{"attempt_id":"attempt-002","learner_id":"learner-001","course_id":"course-001","lesson_id":"introduction","score":20}
+
+### Invalid score (400 even before implementation)
+POST http://127.0.0.1:8080/attempts
+Content-Type: application/json
+
+{"attempt_id":"attempt-invalid","learner_id":"learner-001","course_id":"course-001","lesson_id":"introduction","score":101}
