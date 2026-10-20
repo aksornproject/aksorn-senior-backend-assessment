@@ -40,6 +40,6 @@ List any limitations or unfinished work, and what you would verify before produc
 
 ## 4. Time and AI tools
 
-Time spent: [Actual time spent, up to three hours]
+Time spent: [Actual time spent, up to four hours]
 
 AI tools used: [None, or tools used and what they helped with]

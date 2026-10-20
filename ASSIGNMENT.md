@@ -6,7 +6,7 @@ This is an assessment-only exercise. All requirements are invented and unrelated
 
 Implement a small part of a fictional learning platform in Go. We assess how you understand business rules, preserve correctness, test behavior, and explain decisions. We do not assess how many features you can add.
 
-Verify setup using the README before starting. The **three hours include reading this assignment, implementation, tests, and a short technical note**. Stop at three hours and identify unfinished work. Incomplete submissions are reviewed fairly, but core correctness still matters. The design questions require brief written answers only; no additional implementation is required.
+Verify setup using the README before starting. The **four hours include reading this assignment, implementation, tests, and a short technical note**. Stop at four hours and identify unfinished work. Incomplete submissions are reviewed fairly, but core correctness still matters. The design questions require brief written answers only; no additional implementation is required.
 
 ## Supplied application
 
@@ -105,7 +105,7 @@ Follow this submission workflow:
 5. Ensure that the hiring team can access your repository, either publicly or through granted private access.
 6. Use **Reply All** on the recruitment email and include your repository link.
 
-Stop after three hours. Include your code, tests, and `TECHNICAL_NOTE.md`. Exclude binaries and local caches. You may include additional notes in your reply about tradeoffs, limitations, unfinished work, or special setup instructions. These notes do not replace `TECHNICAL_NOTE.md`.
+Stop after four hours. Include your code, tests, and `TECHNICAL_NOTE.md`. Exclude binaries and local caches. You may include additional notes in your reply about tradeoffs, limitations, unfinished work, or special setup instructions. These notes do not replace `TECHNICAL_NOTE.md`.
 
 See the [README setup instructions](README.md#prerequisites-and-setup) before starting. If GitHub prevents you from forking or accessing the repository, contact the hiring team before starting the timer. No diagrams, extensive documentation, deployment, or services beyond the supplied PostgreSQL and Redis are requested.
 

@@ -4,7 +4,7 @@
 
 Build part of a fictional course-progress service in Go. The exercise assesses business-rule correctness, testing, and engineering judgment. Your work will not be incorporated into Aksorn products.
 
-You have **three hours** to read the detailed specification, implement the required behavior, write tests, and prepare a short technical note. Verify setup before starting the timer. Stop at three hours and identify unfinished work. Optional extensions are not necessary to pass.
+You have **four hours** to read the detailed specification, implement the required behavior, write tests, and prepare a short technical note. Verify setup before starting the timer. Stop at four hours and identify unfinished work. Optional extensions are not necessary to pass.
 
 Use this README to prepare and submit your work. Read [ASSIGNMENT.md](ASSIGNMENT.md) for the detailed rules after setup, once you start the timer.
 
@@ -66,7 +66,7 @@ go run ./cmd/checksetup
 
 Setup downloads the dependencies pinned in `go.mod`, starts PostgreSQL and Redis, applies migrations, and checks the application. No local migration CLI installation is needed. The defaults work without an environment file.
 
-The example test and setup check pass on the untouched starter. The setup check accepts the expected 501 responses. It verifies setup, not business correctness. If setup fails, contact the hiring team before starting the timer. Infrastructure setup is outside the three-hour timebox.
+The example test and setup check pass on the untouched starter. The setup check accepts the expected 501 responses. It verifies setup, not business correctness. If setup fails, contact the hiring team before starting the timer. Infrastructure setup is outside the four-hour timebox.
 
 ## Running the application
 
@@ -113,7 +113,7 @@ Follow this workflow:
 5. Ensure that the hiring team can access your repository, either publicly or through granted private access.
 6. Use **Reply All** on the recruitment email and include your repository link.
 
-Stop after three hours. Include your code, tests, and `TECHNICAL_NOTE.md`. Exclude binaries and local caches.
+Stop after four hours. Include your code, tests, and `TECHNICAL_NOTE.md`. Exclude binaries and local caches.
 
 Keep `TECHNICAL_NOTE.md` to at most half a page. Include one design decision and its tradeoff, limitations or unfinished work, one concrete correctness risk involving concurrent or retried requests, and what you would verify before production use. State your time spent and any AI tools used. AI tools are permitted. You must understand and be able to explain and change your submitted code.
 
